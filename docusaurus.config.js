@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'vACDM',
   tagline: 'virtual Airport Collaborative Decision Making',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/cdm_logo_no_text.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-test-site.com',
@@ -67,7 +67,7 @@ const config = {
         title: 'vACDM',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/cdm_logo_no_text.png',
         },
         items: [
           {
@@ -92,23 +92,23 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: '#',
+                href: 'https://discord.gg/uspkrZzrWv',
               }
             ],
           },
-          {
-            title: 'More',
-            items: [
-              // {
-              //   label: 'Blog',
-              //   to: '/blog',
-              // },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     // {
+          //     //   label: 'Blog',
+          //     //   to: '/blog',
+          //     // },
+          //     // {
+          //     //   label: 'GitHub',
+          //     //   href: 'https://github.com/facebook/docusaurus',
+          //     // },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} vACDM, Built with Docusaurus.`,
       },
