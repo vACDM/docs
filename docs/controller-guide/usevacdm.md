@@ -23,7 +23,7 @@ Enroute clearance can be issued whenever the pilot requests it. Startup should o
 Before you set yourself to master be sure to set your runway configuration in Euroscope correctly!
 
 :::
-In order to be able to edit times in the plugin list, the ATC has to insert ```.vacdm master``` inside the Euroscope console. The default setting is aways read only.
+In order to be able to edit times in the plugin list, the ATC has to insert ```.vacdm master``` inside the Euroscope console. The default setting is always read only.
 
 
 
