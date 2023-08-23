@@ -21,7 +21,7 @@ While the virtual world may not have the same real-world operational complexitie
 
 ## Why vACDM?
 
-![Placeholder](https://placehold.co/600x400)
+<img src="/img/vacdm_setup.png" width="600" />
 
 - Containerized application easy to setup via Docker for every vACC
 - Server <-> Client architecture
