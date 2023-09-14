@@ -6,12 +6,12 @@ sidebar_position: 1
 
 ## Structure of vACDM
 
-vACDM is designed, that every vACC is able to run their own instance simply in a docker container, in order to have fully control over the system.
+vACDM is designed, that every vACC is simply able to run their own instance in a docker container, in order to have full control over the system.
 
 The vACDM Core System consists of two sub systems:
 
 - vACDM-API: for communication between ES-Plugin and the backend
-- vACDM-worker: for contant time calculations and optimizations
+- vACDM-worker: for constant time calculations and optimizations
 
 Here you can see an example docker-compose:
 
@@ -59,15 +59,15 @@ services:
 | --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | SERVER_NAME                                         | The name of the vACDM instance                                                                                                                      |
 | PORT                                                | Port of the API. Default Port is 3000                                                                                                               |
-| ALLOW_OBS_MASTER <br />(true/false. Default: false) | Define if the backend allows Observers are able to set `.vacdm master`.<br /> Not recommended for productive use                                    |
-| ALLOW_SIM <br />(true/false. Default: false)        | Define if the backend allows Controllers are able to set `.vacdm master` in sim sessions (i.e. sweatbox). <br /> Not recommended for productive use |
+| ALLOW_OBS_MASTER <br />(true/false. Default: false) | Defines if the backend allows Observers to set `.vacdm master`.<br /> Not recommended for productive use                                    |
+| ALLOW_SIM <br />(true/false. Default: false)        | Defines if the backend allows Controllers to set `.vacdm master` in sim sessions (i.e. sweatbox). <br /> Not recommended for productive use |
 | MONGO_URI                                           | URI of the Database                                                                                                                                 |
 | ROLE (API/WORKER)                                   | Both roles need to be defined. Each for every sub system                                                                                            |
 | CLIENT_ID                                           | VATSIM AUTH Client ID                                                                                                                               |
 | CLIENT_SECRET                                       | VATSIM AUTH Client Secret                                                                                                                           |
 | PUBLIC_URL                                          | Base URL of the vACDM Frontend (i.e.: https://vacdm.vatsim-germany.org)                                                                             |
 | VATSIM_AUTH_URL                                     | VATSIM AUTH URL. Either auth.vatsim.net or auth-dev.vatsim.net                                                                                      |
-| JWT_SECRET                                          | Any JWT token sectret of your choice                                                                                                                |
+| JWT_SECRET                                          | Any JWT token secret of your choice                                                                                                                |
 | EVENT_URL                                           | API URL of the booking system (i.e.: http://slots.vatsim-germany.org/api/events/)                                                                   |
 | EVENT_PRIO                                          | Initial priority of event flights. The higher priority, the less delay of flights                                                                   |
 | TIME_LAST_SEEN (default 5)                          | Time in minutes until the flight gets marked as inactive in the database when no further update of the flight is received                           |
@@ -80,8 +80,8 @@ With the following env you will be able to start the vACDM instance:
 ```js
 MONGO_URI=mongodb+srv://<user>:<password>@<url>/vacdm-dev?retryWrites=true&w=majority
 
-ALLOW_SIM=true
-ALLOW_OBS_MASTER=true
+ALLOW_SIM=false
+ALLOW_OBS_MASTER=false
 SERVER_NAME=vACDM Dev Server
 
 CLIENT_ID=
@@ -95,6 +95,8 @@ BOOKING_PRIO=5
 ```
 
 ## Prerequisites
+
+vACDM needs to connect to a mongoDb instance. We recommend to either set up a docker instance via the docker-compose or - even faster - create a mongoDb via Mongo Atlas.
 
 vACDM needs a configuration for every airport where it's used.
 
