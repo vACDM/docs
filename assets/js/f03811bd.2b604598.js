@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkvacdm_docu=self.webpackChunkvacdm_docu||[]).push([[899],{1302:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/docs/blog/tags/hola","allTagsPath":"/docs/blog/tags","count":1}')}}]);
