@@ -1,7 +1,8 @@
 {
-  "label": "Implement vACDM into your vACC",
+  "label": "Developer & Admin",
   "position": 4,
   "link": {
+    "slug": "developer",
     "type": "generated-index"
   }
 }

@@ -62,11 +62,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.jpg',
       navbar: {
         title: 'vACDM',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'vACDM Logo',
           src: 'img/cdm_logo_no_text.png',
         },
         items: [
@@ -110,7 +110,7 @@ const config = {
           //   ],
           // },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} vACDM, Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} vACDM<br />Built with ❤️ and Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -1,7 +1,8 @@
 {
-  "label": "Controller - Basics",
+  "label": "Controller",
   "position": 2,
   "link": {
+    "slug": "controller",
     "type": "generated-index"
   }
 }

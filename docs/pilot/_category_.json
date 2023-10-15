@@ -1,7 +1,8 @@
 {
-  "label": "Pilots - Basics",
+  "label": "Pilot",
   "position": 3,
   "link": {
+    "slug": "pilot",
     "type": "generated-index"
   }
 }
