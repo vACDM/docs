@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvacdm_docu=self.webpackChunkvacdm_docu||[]).push([[979],{6658:o=>{o.exports=JSON.parse('{"title":"Pilot","slug":"pilot","permalink":"/docs/pilot","navigation":{"previous":{"title":"vACDM Colors","permalink":"/docs/controller/vacdm-colors"},"next":{"title":"Use vACDM as a pilot","permalink":"/docs/pilot/use-vacdm"}}}')}}]);
