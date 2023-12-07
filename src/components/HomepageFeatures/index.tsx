@@ -23,7 +23,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        vACDM is tatally customizable for your vACC needs.
+        vACDM is totally customizable for your vACC's needs.
       </>
     ),
   },
@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        vACDM supports MDI measures from ECFMP and calculates CTOT's accordingly.
+        vACDM supports MDI measures from ECFMP and calculates CTOTs accordingly.
       </>
     ),
   },
@@ -41,7 +41,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        vACDM woks with geographic taxi zones that let you set taxi times individually depending on parking position and runway.
+        vACDM works with geographic taxi zones that let you set taxi times individually depending on parking position and runway.
       </>
     ),
   },
