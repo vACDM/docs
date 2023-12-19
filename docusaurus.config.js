@@ -96,6 +96,15 @@ const config = {
               }
             ],
           },
+          {
+            title: 'Policies',
+            items: [
+              {
+                label: 'Data Policy',
+                to: '/docs/policies/data-policy',
+              }
+            ],
+          },
           // {
           //   title: 'More',
           //   items: [
