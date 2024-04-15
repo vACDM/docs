@@ -94,7 +94,7 @@ Data of users that have not been assigned any role will be removed 180 days afte
 
 ### 3.5 Archiving
 
-Backups of vACDM Databases are created for maintenance purporses and to protect against inadvertent data loss. Access to backups is heavily restricted.
+Backups of vACDM Databases are created for maintenance purposes and to protect against inadvertent data loss. Access to backups is heavily restricted.
 
 ## (4) Transparency
 
