@@ -6,7 +6,7 @@ sidebar_position: 3
 
 The following commands can be executed in EuroScope.
 
-| Command                              | Test                                                                                                            |
+| Command                              | Action                                                                                                          |
 | ------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
 | .vacdm master                        | sets the Master status                                                                                          |
 | .vacdm slave                         | disables the Master status                                                                                      |
