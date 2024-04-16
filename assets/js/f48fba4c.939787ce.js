@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvacdm_docu=self.webpackChunkvacdm_docu||[]).push([[529],{3020:i=>{i.exports=JSON.parse('{"title":"Policies","slug":"policies","permalink":"/docs/policies","navigation":{"previous":{"title":"Plugin config","permalink":"/docs/developer/plugin-config"},"next":{"title":"vACDM Data Policy","permalink":"/docs/policies/data-policy"}}}')}}]);

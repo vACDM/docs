@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkvacdm_docu=self.webpackChunkvacdm_docu||[]).push([[843],{5949:e=>{e.exports=JSON.parse('{"title":"Controller","slug":"controller","permalink":"/docs/controller","navigation":{"previous":{"title":"What is vACDM?","permalink":"/docs/what-is-vacdm"},"next":{"title":"Use vACDM as a controller","permalink":"/docs/controller/use-vacdm"}}}')}}]);
